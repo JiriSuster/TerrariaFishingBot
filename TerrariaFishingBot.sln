@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerrariaFishingBot", "TerrariaFishingBot\TerrariaFishingBot.csproj", "{560A204E-A73B-4796-9E8E-C9B2355B6814}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{560A204E-A73B-4796-9E8E-C9B2355B6814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{560A204E-A73B-4796-9E8E-C9B2355B6814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{560A204E-A73B-4796-9E8E-C9B2355B6814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{560A204E-A73B-4796-9E8E-C9B2355B6814}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06F67C5A-6E23-4F8B-845E-E5C607639398}
+	EndGlobalSection
+EndGlobal

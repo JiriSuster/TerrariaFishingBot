@@ -1,0 +1,8 @@
+C:\Users\ADMIN\source\repos\TerrariaFishingBot\TerrariaFishingBot\bin\Debug\TerrariaFishingBot.exe.config
+C:\Users\ADMIN\source\repos\TerrariaFishingBot\TerrariaFishingBot\bin\Debug\TerrariaFishingBot.exe
+C:\Users\ADMIN\source\repos\TerrariaFishingBot\TerrariaFishingBot\bin\Debug\TerrariaFishingBot.pdb
+C:\Users\ADMIN\source\repos\TerrariaFishingBot\TerrariaFishingBot\obj\Debug\TerrariaFishingBot.csprojAssemblyReference.cache
+C:\Users\ADMIN\source\repos\TerrariaFishingBot\TerrariaFishingBot\obj\Debug\TerrariaFishingBot.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\TerrariaFishingBot\TerrariaFishingBot\obj\Debug\TerrariaFishingBot.csproj.Fody.CopyLocal.cache
+C:\Users\ADMIN\source\repos\TerrariaFishingBot\TerrariaFishingBot\obj\Debug\TerrariaFishingBot.exe
+C:\Users\ADMIN\source\repos\TerrariaFishingBot\TerrariaFishingBot\obj\Debug\TerrariaFishingBot.pdb
