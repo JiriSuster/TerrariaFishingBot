@@ -17,7 +17,7 @@ namespace TerrariaFishingBot
         public static extern void keybd_event(uint bVk, uint bScan, uint dwFlags, uint dwExtraInfo);
 
 
-        public static void PressE()
+        public static void Click()
         {
             keybd_event(0x01, 0, 0, 0);
             Thread.Sleep(100);
@@ -57,9 +57,8 @@ namespace TerrariaFishingBot
                     while (true)
                     {
                         catched = false;
-                        PressE();
+                        Click();
                         Console.WriteLine("the rod was thrown");
-                        //click
                         Thread.Sleep(2000);
 
                         while (catched == false)
@@ -67,9 +66,8 @@ namespace TerrariaFishingBot
                             byte x = memory.ReadByte((IntPtr)finalAdress + 0x170);
                             if (x != 0)
                             {
-                                //click
                                 Console.WriteLine($"you got a fish");
-                                PressE();
+                                Click();
                                 catched = true;
                             }
                         }
