@@ -1,5 +1,5 @@
 # TerrariaFishingBot
-Fishing bot for Terraria
+  -Fishing bot for Terraria
 
 ## HOW TO USE:
 1. Run Terraria, equip fishing pole and stand near water.
@@ -11,14 +11,14 @@ Fishing bot for Terraria
 
 
 ## HOW DOES IT WORK?
-I am using library VAMemory, which is very helpful when reading/writing to memory. 
+I am using library VAMemory, which is very helpful when reading/writing to memory.    
 I used cheat engine to find bool that is **true** when fish is being caught **(0 = false, 1-255 = true)** 
 
 ![](example2.gif)
 
-Then I had to find static pointer **0x00159B24** and offset **0x170** to adress of that bool using pointer scan.
-Now we know when fish is being caught, so we just use Click() method to reel in.
-Sources:
-[Finding adress]https://www.cheatengine.org/forum/viewtopic.php?t=566966&sid=f8cfe7574a6bde4704b2a63979c0b7d6
-[Using VAMemory]ttps://www.youtube.com/watch?v=JubDctjYb_Q&t
-[Finding static pointers]https://www.youtube.com/watch?v=We3iuurMSVM&t
+Then I had to find static pointer **0x00159B24** and offset **0x170** to adress of that bool using pointer scan.  
+Now we know when fish is being caught, so we just use Click() method to reel in.  
+Sources:  
+[Finding adress](https://www.cheatengine.org/forum/viewtopic.php?t=566966&sid=f8cfe7574a6bde4704b2a63979c0b7d6)
+[Using VAMemory](https://www.youtube.com/watch?v=JubDctjYb_Q&t)
+[Finding static pointers](https://www.youtube.com/watch?v=We3iuurMSVM&t)
