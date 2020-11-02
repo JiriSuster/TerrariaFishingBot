@@ -19,9 +19,9 @@ namespace TerrariaFishingBot
 
         public static void Click()
         {
-            keybd_event(0x01, 0, 0, 0);
+            keybd_event(0x01, 0, 0, 0);   //0x01 = left mouse button down
             Thread.Sleep(100);
-            keybd_event(0x01, 0, 2, 0);
+            keybd_event(0x01, 0, 2, 0);   // up
         }
 
         static void Main(string[] args)
@@ -63,9 +63,10 @@ namespace TerrariaFishingBot
 
                         while (catched == false)
                         {
-                            byte x = memory.ReadByte((IntPtr)finalAdress + 0x170);
+                            byte x = memory.ReadByte((IntPtr)finalAdress + 0x170); //reading value from memory
                             if (x != 0)
                             {
+                                Thread.Sleep(100);
                                 Console.WriteLine($"you got a fish");
                                 Click();
                                 catched = true;
