@@ -12,9 +12,11 @@ Fishing bot for Terraria
 
 ## HOW DOES IT WORK?
 I am using library VAMemory, which is very helpful when reading/writing to memory. 
+
 I used cheat engine to find bool that is **true** when fish is being caught **(0 = false, 1-255 = true)** 
 
 ![](example2.gif)
 
 Then I had to find static pointer **0x00159B24** and offset **0x170** to adress of that bool using pointer scan.
+
 Now we know when fish is being caught, so we just use Click() method to reel in.
