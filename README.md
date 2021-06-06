@@ -1,4 +1,5 @@
 # **OUTDATED**
+I am unable to find new address using cheat engine after 1.4.2.3 update
 # TerrariaFishingBot
   -Fishing bot for Terraria
 
@@ -12,7 +13,7 @@
 
 
 ## HOW DOES IT WORK?
-It's using library VAMemory, which is very helpful when reading/writing to memory.    
+It's using library VAMemory, which is very helpful for reading/writing to memory.    
 I used cheat engine to find bool that is **true** when fish is being caught **(0 = false, 1-255 = true)**  
 ![](example2.gif)  
 So basically it is checking if it's something else than 0. If so, it will reel in using **Click()** function.  
