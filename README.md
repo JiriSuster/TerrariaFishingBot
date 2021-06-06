@@ -1,3 +1,4 @@
+# **OUTDATED**
 # TerrariaFishingBot
   -Fishing bot for Terraria
 
